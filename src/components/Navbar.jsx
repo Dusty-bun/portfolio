@@ -10,6 +10,7 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 
 import { Link } from 'react-scroll';
+import logoto from '../assets/logoto.png'
 
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        
+        <img src={logoto} alt="logo" style={{width: '85px'}}/>
       </div>
 
       {/* menu */}
