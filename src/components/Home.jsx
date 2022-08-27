@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import Contact from '../components/Contact'
 
 const Home = () => {
   return (
