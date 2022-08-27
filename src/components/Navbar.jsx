@@ -125,6 +125,9 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </Link>
           </li>
+
+
+          
       
         </ul>
       </div>

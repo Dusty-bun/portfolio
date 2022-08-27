@@ -1,7 +1,19 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import Contact from '../components/Contact'
+import { Link } from 'react-scroll'
 
+
+/*
+
+<Link
+              className='flex justify-between items-center w-full text-gray-300'
+               to='contact' smooth={true} duration={500}
+            >
+              Email <HiOutlineMail size={30} />
+            </Link>
+
+*/
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
@@ -21,7 +33,8 @@ const Home = () => {
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            View Work
+            <Link className='flex justify-between items-center w-full text-gray-300'
+               to='work' smooth={true} duration={500}> View Work</Link>
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
