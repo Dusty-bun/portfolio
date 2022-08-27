@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkImg from '../assets/workImg.jpg';
 import sucert from '../assets/sucert.jpeg'
-import youtube from '../assets/youtube.png'
+import eldenring from '../assets/eldenring.png'
 import portfolio2 from '../assets/portfolio2.png'
 
 
@@ -23,7 +23,7 @@ const Work = () => {
 
         {/* Grid Item */}
         <div
-            style={{ backgroundImage: `url(${youtube})` }}
+            style={{ backgroundImage: `url(${eldenring})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
